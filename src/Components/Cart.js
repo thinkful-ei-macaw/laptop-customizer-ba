@@ -1,5 +1,6 @@
 import React from 'react'
 import Total from './Total'
+import CartTitle from './CartTitle'
 
 class Summary extends React.Component {
 
@@ -25,7 +26,7 @@ class Summary extends React.Component {
 
     return (
       <section className="main__summary">
-        <h2>Your cart</h2>
+        <CartTitle />
         <div>
           { items }
         </div>
